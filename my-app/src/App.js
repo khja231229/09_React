@@ -15,6 +15,11 @@ import Props3 from './components/R05_Props3';
 
 import State1 from './components/R06_State1';
 import State2 from './components/R07_State2';
+import State3 from './components/R08_State3';
+
+import Context1 from './components/R09_Context1';
+import Context2 from './components/R10_Context2';
+
 
 function App() {
 
@@ -35,19 +40,25 @@ function App() {
       {/* <Props1 num='2' name='강찬혁' age='999' score='70'/> */}
 
       {/* <Props2 name='강감찬' age='72' gender='남자' />
-      <Props2 name='천추태후' age='66' gender='여자' />
-      <Props3 name='고길동'/>
-      <Props3 name='김영희'/> */}
+      <Props2 name='천추태후' age='66' gender='여자' /> */}
 
 
+      {/* <Props3 name='고길동'/>
+      <Props3 name='김영희'/>  */}
 
-      <State1/>
+
+      {/* <State1/>
 
       <hr/>
 
-      <State2 init="10" step="2"/>
+      <State2 init="50" step="10"/> */}
 
+      {/* <State3/> */}
 
+      <Context1/>
+      <hr/>
+      <Context2/>
+      
     </>
   );
 }
